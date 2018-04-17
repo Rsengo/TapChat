@@ -1,0 +1,138 @@
+header {
+    display: flex;
+    justify-content: center;
+    min-width: 20px;
+    color: white;
+    background: darkseagreen;
+    position: relative;
+    flex-basis: 10%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    justify-content: space-around;
+    flex-basis: 90%;
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 1em;
+}
+
+li {
+    margin-bottom: 1em;
+}
+
+.face {
+    border-radius: 0.2%;
+    justify-content: center;
+    box-shadow: 0 0 5.5px lightseagreen;
+    padding: 5px;
+    margin: 10px;
+}
+
+.room {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80%;
+}
+
+.messages-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-basis: 90%;
+    overflow-y: scroll;
+    margin-bottom: 1em;
+    border-bottom: lightgray solid 0.5px;
+}
+
+.messages-list:nth-child(even) {
+    background: lightgray;
+}
+
+.messages-list p {
+    margin-top: 0;
+}
+
+.messages-list h5 {
+    margin-bottom: 0.5em;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+    margin-right: 20px;
+}
+
+.rooms-container, .users-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-basis: 100%;
+}
+
+.rooms-container > ul, .users-container > ul {
+    padding: 0;
+}
+
+.message-send-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.message-text-box {
+    margin: 0 0.5%;
+    flex-basis: 60%;
+}
+
+.enter-button {
+    margin: 0 0.5%;
+    color: white;
+    padding: .7em;
+    flex-basis: 10%;
+    background-color: lightseagreen;
+    border: none;
+}
+
+.enter-button:hover, .enter-button:active {
+    background-color: seagreen;
+    box-shadow: 0.25em 0.25em 0.25em darkseagreen;
+}
+
+.messages-container::-webkit-scrollbar-button {
+width: 5px;
+height: 0;
+}
+
+/*!* Цвет дорожки, по которой двигается бегунок прокрутки. *!*/
+.messages-container::-webkit-scrollbar-track {
+background-color: #ecedee
+}
+
+/*!* Цвет бегунка полосы, а так же его закругление. *!*/
+.messages-container::-webkit-scrollbar-thumb {
+-webkit-border-radius: 0;
+border-radius: 0;
+background-color: #6dc0c8;
+}
+
+/*!* Цвет бегунка при наведении на него курсора. *!*/
+.messages-container::-webkit-scrollbar-thumb:hover {
+background-color: #56999f;
+}
+
+/*!* Основная ширина полосы прокрутки. *!*/
+.messages-container::-webkit-scrollbar {
+width: 0.7%;
+}

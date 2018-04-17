@@ -1,0 +1,5 @@
+C:\Users\RudencovDP\Desktop\Chat\Chat.Web\Chat.Models\bin\Debug\Chat.Models.dll
+C:\Users\RudencovDP\Desktop\Chat\Chat.Web\Chat.Models\bin\Debug\Chat.Models.pdb
+C:\Users\RudencovDP\Desktop\Chat\Chat.Web\Chat.Models\obj\Debug\Chat.Models.dll
+C:\Users\RudencovDP\Desktop\Chat\Chat.Web\Chat.Models\obj\Debug\Chat.Models.pdb
+C:\Users\RudencovDP\Desktop\Chat\Chat.Web\Chat.Models\obj\Debug\Chat.Models.csprojResolveAssemblyReference.cache
