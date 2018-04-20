@@ -18,16 +18,5 @@ namespace Chat.Web.Controllers
 
             return View();
         }
-
-        /// <summary>
-        /// Страница с чатом
-        /// </summary>
-        /// <returns></returns>
-        public ActionResult ChatView()
-        {
-            ViewBag.Title = "Home Page";
-
-            return View();
-        }
     }
 }
