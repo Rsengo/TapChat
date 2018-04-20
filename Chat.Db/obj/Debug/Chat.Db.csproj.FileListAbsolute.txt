@@ -7,3 +7,13 @@ C:\Users\RudencovDP\Desktop\Chat\Chat.Web\Chat.Db\bin\Debug\EntityFramework.xml
 C:\Users\RudencovDP\Desktop\Chat\Chat.Web\Chat.Db\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\RudencovDP\Desktop\Chat\Chat.Web\Chat.Db\obj\Debug\Chat.Db.dll
 C:\Users\RudencovDP\Desktop\Chat\Chat.Web\Chat.Db\obj\Debug\Chat.Db.pdb
+C:\Users\RudencovDP\Desktop\Chat\GitChat\TapChat\Chat.Db\bin\Debug\Chat.Db.dll.config
+C:\Users\RudencovDP\Desktop\Chat\GitChat\TapChat\Chat.Db\bin\Debug\Chat.Db.dll
+C:\Users\RudencovDP\Desktop\Chat\GitChat\TapChat\Chat.Db\bin\Debug\Chat.Db.pdb
+C:\Users\RudencovDP\Desktop\Chat\GitChat\TapChat\Chat.Db\bin\Debug\EntityFramework.dll
+C:\Users\RudencovDP\Desktop\Chat\GitChat\TapChat\Chat.Db\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\RudencovDP\Desktop\Chat\GitChat\TapChat\Chat.Db\bin\Debug\EntityFramework.xml
+C:\Users\RudencovDP\Desktop\Chat\GitChat\TapChat\Chat.Db\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\RudencovDP\Desktop\Chat\GitChat\TapChat\Chat.Db\obj\Debug\Chat.Db.csprojResolveAssemblyReference.cache
+C:\Users\RudencovDP\Desktop\Chat\GitChat\TapChat\Chat.Db\obj\Debug\Chat.Db.dll
+C:\Users\RudencovDP\Desktop\Chat\GitChat\TapChat\Chat.Db\obj\Debug\Chat.Db.pdb

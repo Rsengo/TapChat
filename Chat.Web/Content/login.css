@@ -1,12 +1,4 @@
-﻿body {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.login {
+﻿.login {
     border: #6dc0c8 solid 1px;
     display: flex;
     flex-direction: column;
