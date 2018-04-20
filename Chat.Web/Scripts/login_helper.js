@@ -7,7 +7,8 @@ $(function () {
         } else {
             localStorage.setItem('tempUserName', tempUserName);
 
-            location.href = '/Home/ChatView';
+            $('.hidden').removeClass('hidden');
+            $('.login').addClass('hidden');
         }
     });
 });

@@ -1,19 +1,58 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="~/Content/login.css"/>
+    <title>Chat</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="~/Content/chat.css">
+    <link rel="stylesheet" href="~/Content/login.css" />
 </head>
 <body>
-<main>
+
+<header class="face hidden">
+    <h1>Chat Room</h1>
+</header>
+<section class="login">
     <h1>Test chat</h1>
     <div class="login-container">
         <input id="login-field" type="text" class="login-field" placeholder="Enter name"/>
-        <input id="sign-in" class="sign-in" type="button" value="Войти" />
+        <input id="sign-in" class="sign-in" type="button" value="Войти"/>
     </div>
+</section>
+<main class="hidden">
+    <section class="room face">
+        <div class="messages-container" id="messages-container">
+            <ul id="messages-list" class="messages-list">
+                <li v-for="message in messages">
+                    <h5>{{message.userName}} ({{message.time}})</h5>
+                    <p>{{message.text}}</p>
+                </li>
+            </ul>
+        </div>
+        <div class="message-send-container">
+            <textarea id="message-text-box" class="message-text-box" type="text" placeholder="Введите текст" rows="3"></textarea>
+            <input id="enter-button" class="enter-button" type="button" value="Отправить">
+        </div>
+    </section>
+    <section class="navigation">
+        @*<nav class="rooms-container face">
+                    <ul id="rooms-list">
+                        <li v-for="room in rooms"><a v-bind:href="room.url">{{room.name}}</a></li>
+                    </ul>
+                </nav>*@
+        <nav class="users-container face">
+            <ul id="users-list">
+                <li v-for="user in users">{{user.name}}{{user.isTempUser? ' (You)' : ''}}</li>
+            </ul>
+        </nav>
+    </section>
 </main>
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" type="application/javascript"></script>
+<script type="application/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="application/javascript" src="~/scripts/vue.js"></script>
+<script type="application/javascript" src="~/scripts/jquery.signalR-2.2.3.js"></script>
+<script type="application/javascript" src="~/scripts/messages.js"></script>
+<script type="application/javascript" src="~/scripts/users-list.js"></script>
+<script type="application/javascript" src="~/signalr/hubs"></script>
+<script type="application/javascript" src="~/scripts/hub_helper.js"></script>
 <script src="~/Scripts/login_helper.js"></script>
 </body>
 </html>

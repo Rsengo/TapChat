@@ -6,7 +6,7 @@
     height: 100vh;
 }
 
-main {
+.login {
     border: #6dc0c8 solid 1px;
     display: flex;
     flex-direction: column;
@@ -49,4 +49,8 @@ h1 {
 .sign-in:hover, .sign-in:active {
     background-color: seagreen;
     box-shadow: 0.25em 0.25em 0.25em darkseagreen;
+}
+
+.hidden {
+    display: none;
 }
